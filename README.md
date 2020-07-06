@@ -1,4 +1,4 @@
-# Hui.Httpoison
+# Hui.Httpoison [![Build Status](https://travis-ci.org/boonious/hui_httpoison.svg?branch=master)](https://travis-ci.org/boonious/hui_httpoison) [![Hex pm](http://img.shields.io/hexpm/v/hui_httpoison.svg?style=flat)](https://hex.pm/packages/hui_httpoison)
 
 An implementation of `Hui` HTTP client behaviour using `HTTPoison` which can be used in conjunction with `Hui` to query [Solr](http://lucene.apache.org/solr/) search platform.
 

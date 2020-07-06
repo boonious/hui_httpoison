@@ -21,7 +21,8 @@ defmodule HuiHttpoison.MixProject do
       source_url: "https://github.com/boonious/hui_httpoison",
       homepage_url: "https://github.com/boonious/hui_httpoison",
       docs: [
-        main: "HuiHttpoison"
+        main: "Hui.Httpoison",
+        extras: ["README.md", "CHANGELOG.md"]
       ]
     ]
   end
@@ -35,6 +36,7 @@ defmodule HuiHttpoison.MixProject do
   defp deps do
     [
       {:bypass, "~> 1.0", only: :test},
+      {:ex_doc, "~> 0.19", only: :dev, runtime: false},
       {:httpoison, "~> 1.5.1"},
       {:hui, "~> 0.10.0"}
     ]
